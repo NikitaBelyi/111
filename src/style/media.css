@@ -1,0 +1,160 @@
+@media screen and (max-width: 520px) {
+    .body {
+        width: auto;
+    }
+
+    /* Header */
+    .header-nav {
+        right: 0;
+    }
+    .header__greetings-descr {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .header__container-greetings {
+        text-align: center;
+    }
+    .header__greetings-h1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* Our Story */
+    .section-our-story__container {
+        flex-direction: column;
+    }
+    .section__story-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .section-story-content{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .section__story-p {
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Expertise Section */
+    .section-expertise__header {
+        margin-bottom: 60px;
+    }
+    .section-espertise__card {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .section-espertise__card:last-child {
+        margin-bottom: 0;
+    }
+    .section-sxpertise-content__descr-card {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .section-expertise__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .none-bottom {
+        margin-bottom: 40px;
+    }
+
+    /* Our Team */
+    .section-meet-team__header {
+        text-align: center;
+    }
+    .section-meet__our-team {
+        align-items: center;
+        flex-direction: column;
+    }
+    .person {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    /* Our Works */
+    .section-our-works__photo-board {
+        justify-content: center;
+    }
+    .section-our-works-h2 {
+        text-align: center;
+    }
+    .section-our-works__header-a {
+        text-align: center;
+    }
+    .photo-board__part-2 {
+        padding-right: 20px;
+    }
+    .photo-board__part-1 {
+        padding-left: 20px;
+    }
+
+    /* Reviews */
+    .section-reviews__slider-content-p {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Section People Say */
+    .section-people-say {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .section-people-say-h2 {
+        padding-left: 0;
+    }
+    .section-people-say__form-container {
+        margin-bottom: 40px;
+    }
+    .people-say-img-container-1 {
+        margin-left: 0;
+        align-items: flex-start;
+    }
+    .people-say-img-container {
+        margin-left: 0;
+    }
+    /* Footer */ 
+    .footer__content-container {
+        flex-direction: column;
+        padding-top: 30px;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .footer__logo {
+        justify-content: center;
+    }
+    .footer__logo-text {
+        margin-right: 0;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .footer__contacts {
+        width: 70%;
+        margin-right: 0;
+        padding: 0 10px;
+        align-items: center;
+        margin-bottom: 27px;
+    }
+    .footer__contacts-header {
+        text-align: center;
+        margin-bottom: 27px;
+    }
+    .footer__descr {
+        text-align: center;
+    }
+    .footer__contacts-addres {
+        text-align: center;
+    }   
+    .footer__form-and-socials {
+        align-items: center;
+    }
+    .footer__another {
+        text-align: center;
+        flex-direction: column;
+    }
+}
