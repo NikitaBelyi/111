@@ -1,5 +1,5 @@
 .body {
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
     font-family: Roboto, sans-serif;
 }
@@ -262,6 +262,7 @@
     margin-bottom: 16px;
 }
 .section-expertise__span {
+    text-align: center;
     opacity: 0.74;
     font-family: Playfair;
     font-size: 14px;
@@ -317,9 +318,7 @@
 .brending {
     margin-bottom: 41.9px;
 }
-.love {
-    margin-bottom: 38.5px;
-}
+
 .none-bottom {
     margin-bottom: 0;
 }
@@ -661,16 +660,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
     margin-left: 80px;
     position: relative;
-    bottom: 4px;
+    top: 80px;
 }
 
 .img-client {
     margin-bottom: 47px;
     display: inline-block;
 }
+.img-client-two {
+    margin-bottom: 52px;
+}
+
+.img-client-two:last-child {
+    margin-bottom: 0;
+}
+
 
 .section-people-say__h2 h2 {
     margin: 0;

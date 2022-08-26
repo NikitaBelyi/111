@@ -1,15 +1,21 @@
 @media screen and (max-width: 520px) {
     .body {
-        width: auto;
+        width: 100%;
+        margin: 0 auto;
     }
 
     /* Header */
     .header-nav {
         right: 0;
     }
+
+    .dropdown-menu {
+        inset: unset !important;
+        transform: unset !important;
+    }
     .header__greetings-descr {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
         width: 100%;
     }
     .header__container-greetings {
@@ -18,6 +24,7 @@
     .header__greetings-h1 {
         padding-left: 10px;
         padding-right: 10px;
+        font-size: 28px;
     }
     /* Our Story */
     .section-our-story__container {
@@ -33,9 +40,9 @@
         align-items: center;
     }
     .section__story-p {
-        text-align: left;
-        padding-left: 10px;
-        padding-right: 10px;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     /* Expertise Section */
@@ -78,25 +85,29 @@
     /* Our Works */
     .section-our-works__photo-board {
         justify-content: center;
+        width: 99%;
     }
+
     .section-our-works-h2 {
         text-align: center;
+    }
+
+    .section-meet-team__span {
+        padding: 0 50px 0 50px;
+    }
+
+    .section-meet-team__h2 {
+        padding: 0 50px 0 50px;
     }
     .section-our-works__header-a {
         text-align: center;
     }
-    .photo-board__part-2 {
-        padding-right: 20px;
-    }
-    .photo-board__part-1 {
-        padding-left: 20px;
-    }
-
+    
     /* Reviews */
     .section-reviews__slider-content-p {
         width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     /* Section People Say */
@@ -107,16 +118,35 @@
     }
     .section-people-say-h2 {
         padding-left: 0;
+        position: relative;
+        left: 70px;
     }
     .section-people-say__form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-bottom: 40px;
     }
     .people-say-img-container-1 {
         margin-left: 0;
         align-items: flex-start;
     }
+    .people-say__input-form {
+        width: 250px;
+    }
+
+    .text-area-people-say {
+        width: 250px;
+    }
+
+    .img-client-two {
+        margin-bottom: 53px;
+    
+    }
     .people-say-img-container {
         margin-left: 0;
+        position: relative;
+        top: 72px;
     }
     /* Footer */ 
     .footer__content-container {
